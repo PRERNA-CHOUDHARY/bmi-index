@@ -1,0 +1,84 @@
+.container {
+    background-color: rgb(10, 45, 77);
+    color: white;
+    padding:4%;
+  
+    height: fit-content;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: cursive;
+    border-radius: 30px;
+}
+
+input {
+    border: white 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    height: 3rem;
+    width: 90%;
+    font-size: 1.6rem;
+    color: rgb(10, 45, 77);
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: white 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    height: 30%;
+    width: 10rem;
+    font-size: 1.6rem;
+    color: rgb(10, 45, 77);
+    font-family: cursive;
+    margin-bottom: 2rem;
+}
+
+button:hover {
+    border: white 2px solid;
+    border-radius: 20px;
+    text-align: center;
+    height: 30%;
+    width: 10rem;
+    font-size: 1.6rem;
+    color: white;
+    background-color: rgb(10, 45, 77);
+    font-family: cursive;
+    margin-bottom: 2rem;
+
+}
+
+#bmi {
+    border-radius: 20px;
+    color: rgb(10, 45, 77);
+    height: 70px;
+    width:50%;
+    font-size: 3rem;
+    margin: auto;
+    background-color: white;
+    text-align: center;
+}
+.message
+{
+   
+    width: 80%;
+    color:rgb(10, 45, 77);
+    font-size: 1.6rem;
+    margin: 2rem auto 0 auto;
+
+}
+#msg1{
+    display: none;
+}
+#msg2{
+    display: none;
+}
+#msg3{
+    display: none;
+}
+ 

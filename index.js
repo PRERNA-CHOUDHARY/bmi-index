@@ -12,7 +12,7 @@ function message(bmi) {
     if (bmi < 18) {
         document.getElementById('msg1').style.display="block";
     }
-    else if ((bmi >= 18)||(bmi<25)) {
+    else if ((bmi >= 18)&&(bmi<25)) {
         document.getElementById('msg2').style.display="block";
     }
     else if (bmi >=25) {
